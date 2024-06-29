@@ -1,13 +1,13 @@
 
 @font-face {
-   font-family: "KudryashevDisplay";
-   src: url(../fonts/KudryashevDisplay.ttf);
+   font-family: "Moniqa-ExtraBoldItalicDisplay";
+   src: url(../fonts/Moniqa-ExtraBoldNarrowHeading.otf);
    font-weight: bold;
    font-style: normal;
  }
  @font-face {
-   font-family: "  kudry_weird-headline";
-   src: url(../fonts/kudry_weird-headline.otf);
+   font-family: "Moniqa-BoldCondItaHeading";
+   src: url(../fonts/Moniqa-ExtraBoldNarrowHeading.otf);
    font-weight: bold;
    font-style: normal;
  }
@@ -47,8 +47,8 @@
 
 /* Fonts */
 :root {
-    --body-font           : "KudryashevDisplay", sans-serif;
-    --heading-font        : "/KudryashevDisplay", serif;
+    --body-font           : "Moniqa-BoldCondItaHeading", sans-serif;
+    --heading-font        : "Moniqa-ExtraBoldItalicDisplay", serif;
 }
 
 /*----------------------------------------------*/
@@ -79,20 +79,19 @@ h1,h2,h3,h4,h5,h6 {
  }
 h1{
   font-size: 8vw;
-  font-family: "  kudry_weird-headline";
+  
  color: rgb(190, 21, 72) ;
 }
-h2{   font-family: "  kudry_weird-headline";
+h2{   
   color: rgb(190, 21, 72) ;
 
   font-size: 4.5rem;
 }
-h3{color: #fff;   font-family: "KudryashevDisplay";
-
+h3{color: #fff;  
   font-size: 2.625rem;
   line-height: 127%;
 }
-h4{   font-family: "KudryashevDisplay";
+h4{   
 
   font-size: 1.75rem;
   line-height: 127%;
