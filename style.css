@@ -1,16 +1,15 @@
-
 @font-face {
-   font-family: "Moniqa-ExtraBoldItalicDisplay";
-   src: url(../fonts/Moniqa-ExtraBoldNarrowHeading.otf);
-   font-weight: bold;
-   font-style: normal;
- }
- @font-face {
-   font-family: "Moniqa-BoldCondItaHeading";
-   src: url(../fonts/Moniqa-ExtraBoldNarrowHeading.otf);
-   font-weight: bold;
-   font-style: normal;
- }
+  font-family: "Tsarevich_old";
+  src: url(../fonts/Tsarevich_old.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Moniqa-BoldCondItaHeading";
+  src: url(../fonts/BalkaraFreeCondensed.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
 /*--------------------------------------------------------------
 /** 1. VARIABLES
 --------------------------------------------------------------*/
@@ -48,7 +47,7 @@
 /* Fonts */
 :root {
     --body-font           : "Moniqa-BoldCondItaHeading", sans-serif;
-    --heading-font        : "Moniqa-ExtraBoldItalicDisplay", serif;
+    --heading-font        : "Tsarevich_old", serif;
 }
 
 /*----------------------------------------------*/
